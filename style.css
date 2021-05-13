@@ -19,38 +19,6 @@
     color: var(--light);
   }
   
-  
-  a[href*='.css']::after {
-    content: '📝';
-    display: inline-block;
-    margin-left: 3px;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-  }
-  
-  nav a {
-    background-color: unset;
-    color: var(--navlink-color);
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: var(--light);
-  }
-  
-  main {
-    display: flex;
-    flex: 1 1 0;
-    max-width: 96%;
-    margin: 2% auto;
-  }
-  
-  
   footer {
     display: flex;
     justify-content: center;
