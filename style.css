@@ -19,13 +19,6 @@ body {
     color: var(--light);
   }
 
-  .image {
-
-
-     
-  }
-
-
 h1 {
     font-size: 200%;
   }
@@ -36,7 +29,6 @@ h1 {
   }
   
   a[href*='.css']::after {
-    content: '📝';
     display: inline-block;
     margin-left: 3px;
   }
