@@ -3,3 +3,18 @@
   --light: #fff;
   --navlink-color: #868a84;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--dark);
+    color: var(--light);
+  }
