@@ -75,6 +75,7 @@ body {
   footer {
     display: flex;
     justify-content: space-between;
+    border-radius: 20px;
     font-family: Geneva;
     align-items: center;
     padding: 20px;
