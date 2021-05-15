@@ -60,15 +60,18 @@ body {
 
 }
 
+.img {
+  border:1px solid black;
+  }
+
+
 .about {
   margin-left: 30px;
   color: #ffffff;
 }
 
 .work {
-  margin: 10px 0 0 0;
-  padding: 50px;
-  height: 500px;
+  flex-wrap: wrap;
   color: #ffffff;
 }
 
