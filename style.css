@@ -25,6 +25,7 @@ body {
   header {
     display: flex;
     justify-content: space-between;
+    font-family: Geneva;
     align-items: center;
     padding: 20px;
     background-color: var(--dark);
