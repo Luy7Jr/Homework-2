@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 20px;
     background-color: var(--dark);
     color: var(--light);
   }
@@ -35,12 +35,16 @@ body {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    list-style-type: none;
   }
   
   nav a {
     color: var(--navlink-color);
     font-weight: bold;
     text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
+    
   }
 
   .image {
