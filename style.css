@@ -78,13 +78,16 @@ body {
   color: #ffffff;
 }
 
-
   footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: start;
     padding: 2%;
     background-color: var(--dark);
     color: var(--light);
   }
+
+  @media screen and (max-width: 575px) {
+    #main {
+      flex-direction: column;
+    }
   
