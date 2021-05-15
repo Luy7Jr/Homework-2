@@ -1,7 +1,7 @@
 :root {
   --dark: #031e38;
   --light: #fff;
-  --navlink-color: #868a84;
+  --navlink-color: #e2e4e2;
 }
 
 * {
@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
-    background-color: black;
+    background-image: url(file:///Users/luyraposo/Desktop/Homework-2/Portugal.jpeg);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
