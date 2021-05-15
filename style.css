@@ -83,10 +83,30 @@ body {
 
   footer {
     display: flex;
-    justify-content: start;
-    padding: 2%;
+    justify-content: space-between;
+    font-family: Geneva;
+    align-items: center;
+    padding: 20px;
     background-color: var(--dark);
     color: var(--light);
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+  }
+
+  footer li {
+    display: flex;
+    color: var(--navlink-color);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 180px; 
+    align-items: center;
+    justify-content: center;
   }
 
   @media screen and (max-width: 575px) {
