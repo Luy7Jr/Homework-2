@@ -1,48 +1,47 @@
 :root {
-  --dark: #031e38;
-  --light: #fff;
-  --navlink-color: #e2e4e2;
+ --dark: #031e38;
+ --light: #fff;
+ --navlink-color: #e2e4e2;
 }
 
 * {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 body {
   line-height: 1.3;
   background-image: url(file:///Users/luyraposo/Desktop/Homework-2/STreet.jpeg);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
 
+header {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  font-family: Geneva;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--dark);
+  color: var(--light);
+}
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 20px;
-    font-family: Geneva;
-    align-items: center;
-    padding: 20px;
-    background-color: var(--dark);
-    color: var(--light);
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    list-style-type: none;
-  }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  list-style-type: none;
+}
   
-  nav a {
-    color: var(--navlink-color);
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 25px;
+nav a {
+  color: var(--navlink-color);
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 25px;
     
-  }
+}
 
-  .image {
+.image {
   float: left;
   width: 500px;
   height: 500px;
@@ -53,7 +52,7 @@ body {
 
 .img {
   border:1px solid black;
-  }
+}
 
 .about {
   width: 98%;
@@ -77,39 +76,50 @@ body {
   justify-content: center;
 }
 
+footer {
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--dark);
+  color: var(--light);
+}
 
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 150px;
+  min-width: 300px;
+  list-style-type: none;
+}
 
-  footer {
-    justify-content: space-between;
-    border-radius: 20px;
-    align-items: center;
-    padding: 20px;
-    background-color: var(--dark);
-    color: var(--light);
-  }
+footer li {
+  display: flex;
+  color: var(--navlink-color);
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
 
-  footer ul {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 150px;
-    min-width: 300px;
-    list-style-type: none;
-  }
+.link {
+  color: white;
+  margin-left: 5px;
+  text-decoration: none;
+}
 
-  footer li {
-    display: flex;
-    color: var(--navlink-color);
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-  }
+img:hover {
+  background-color: #772014;
+  color: #fff;
+}
 
-  .link {
-    color: white;
-    margin-left: 5px;
-    text-decoration: none;
-  }
+img:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+}
 
+img:focus {
+  outline: none;
+  border-color: #8ac4ff;
  
