@@ -57,6 +57,7 @@ body {
 
 
 .about {
+  float: inline-end;
   margin-left: 30px;
   color: #ffffff;
 }
