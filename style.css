@@ -63,6 +63,7 @@ nav a {
 }
 
 .big {
+  filter: grayscale(100%);
   margin-left: 30px;
   border-radius: 50px;
   width: 700px;
@@ -73,6 +74,7 @@ nav a {
 }
  
 #wrapper .img {
+  filter: grayscale(100%);
   flex-direction: column;
   border-radius: 50px;
   box-shadow: 10px 10px 10px #aaaaaa;
@@ -115,17 +117,9 @@ footer li {
   text-decoration: none;
 }
 
- 
-.select:hover #select2 {
-  background-color: #772014;
-  color: #fff;
-}
-.select:active #select2 {
-  font-size: 180%;
+#select2:hover, #select3:hover, 
+#select4:hover, #select5:hover, #select6:hover {
+  filter: grayscale(0%);
   box-shadow: 0 0 10px #000 inset;
 }
 
-.select:focus #select2 {
-  outline: none;
-  border-color: #8ac4ff;
-}
