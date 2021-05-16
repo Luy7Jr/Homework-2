@@ -50,13 +50,9 @@ nav a {
   margin: 0 40px 10px 5px;
 }
 
-.img {
-  border:1px solid black;
-}
-
 .about {
   width: 98%;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   color: #ffffff;
 }
 
@@ -66,12 +62,22 @@ nav a {
   margin-bottom: 10px;
 }
 
-#wrapper img{
+.big {
+  margin-left: 30px;
+  border-radius: 50px;
+  width: 700px;
+  height: 450px;
+  float: left;
+  position: relative;
+  box-shadow: 10px 10px 10px #aaaaaa;
+}
+ 
+#wrapper .img {
   flex-direction: column;
   border-radius: 50px;
-  box-shadow: 20px 20px 10px #aaaaaa;
+  box-shadow: 10px 10px 10px #aaaaaa;
   margin: 2px 10px 30px 20px;
-  width: 200px;
+  width: 250px;
   height: 200px;
   justify-content: center;
 }
@@ -109,17 +115,20 @@ footer li {
   text-decoration: none;
 }
 
-img:hover {
+ /* The user's cursor is positioned over the element */
+button:hover {
   background-color: #772014;
   color: #fff;
 }
 
-img:active {
+/* The user is actively pressing down on the element */
+button:active {
   font-size: 180%;
   box-shadow: 0 0 10px #000 inset;
 }
 
-img:focus {
+/* The element is currently in focus, either by tabbing to or clicking on it */
+button:focus {
   outline: none;
   border-color: #8ac4ff;
- 
+}
