@@ -48,17 +48,16 @@ body {
   height: 500px;
   border-radius: 50px;
   box-shadow: 20px 20px 10px #aaaaaa;
-  margin: 10px 20px 10px 5px;
-
+  margin: 0 40px 10px 5px;
 }
 
 .img {
   border:1px solid black;
   }
 
-
 .about {
-  margin-bottom: 125px;
+  width: 98%;
+  margin-bottom: 150px;
   color: #ffffff;
 }
 
