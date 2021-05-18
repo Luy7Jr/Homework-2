@@ -143,9 +143,9 @@ footer li {
   text-decoration: none;
 }
 
-#select2:hover, #select3:hover, 
-#select4:hover, #select5:hover, #select6:hover {
-  filter: grayscale(0%);
+#opacity:hover, #opacity2:hover, 
+#opacity3:hover, #opacity4:hover, #opacity5:hover {
+  filter: opacity(0%);
   box-shadow: 0 0 10px #000 inset;
 }
 
