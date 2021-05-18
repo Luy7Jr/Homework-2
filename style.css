@@ -50,11 +50,6 @@ nav a {
   margin: 0 40px 10px 5px;
 }
 
-h2 {
-  text-align: center;
-  color: aqua;
-}
-
 .about {
   width: 98%;
   margin-bottom: 175px;
@@ -70,32 +65,39 @@ h2 {
 h2 {
 color: var(--light);
 font-weight: bold;
+position: absolute;
 }
 
 h3 {
 color: var(--light);
 font-weight: bold;
+position: absolute;
 }
 
-.work {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
-}
-
-
-
-#big {
+.big {
 width: 600px;
 height: 400px;
 }
 
-#small {
-  width: 200px;
-  height: 100px;
+.small {
+  width: 180px;
+  height: 180px;
 }
+
+.select {
+float: left;
+margin-right: 20px;
+margin-left: 10px;
+position: relative;
+}
+
+.select2 {
+margin-right: 20px;
+margin-left: 10px;
+position: relative;
+}
+
+
 
 footer {
   display: inline-table;
