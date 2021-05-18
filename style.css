@@ -129,14 +129,20 @@ footer ul {
   display: flex;
   min-width: 300px;
   list-style-type: none;
+  display: inline-block;
+justify-content: space-between;
+align-items: center;
 }
 
 footer li {
-padding: 30px 85px 20px 85px;
+
 color: var(--navlink-color);
 font-weight: bold;
 text-decoration: none;
 margin-left: 25px;
+
+justify-content: space-between;
+align-items: center;
 }
 
 .link {
