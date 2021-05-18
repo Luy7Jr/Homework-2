@@ -75,6 +75,7 @@ h2 {
   float: left;
   position: relative;
   box-shadow: 10px 10px 10px #aaaaaa;
+  margin-right: 20px;
 }
  
 #wrapper .img {
@@ -87,6 +88,11 @@ h2 {
   height: 200px;
   justify-content: center;
   float: left;
+}
+
+h3 {
+  color: var(--light);
+  text-decoration: none;
 }
 
 footer {
