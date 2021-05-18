@@ -65,13 +65,15 @@ nav a {
 h2 {
 color: var(--light);
 font-weight: bold;
-position: absolute;
+position: relative;
+filter: grayscale(100%);
 }
 
 h3 {
 color: var(--light);
 font-weight: bold;
-position: absolute;
+position: relative;
+filter: grayscale(100%);
 }
 
 .big {
@@ -80,6 +82,7 @@ height: 400px;
 border-radius: 30px;
 box-shadow: 20px 20px 10px #aaaaaa;
 margin: 0 10px 10px 5px;
+filter: grayscale(100%);
 }
 
 .small {
@@ -88,6 +91,7 @@ height: 180px;
 border-radius: 30px;
 box-shadow: 20px 20px 10px #aaaaaa;
 margin: 0 10px 10px 5px;
+filter: grayscale(100%);
 }
 
 .select {
@@ -103,8 +107,6 @@ margin-right: 20px;
 margin-left: 10px;
 position: relative;
 }
-
-
 
 footer {
   display: inline-table;
@@ -144,8 +146,8 @@ footer li {
 }
 
 #opacity:hover, #opacity2:hover, 
-#opacity3:hover, #opacity4:hover, #opacity5:hover {
-  filter: opacity(0%);
+#opacity3:hover, #opacity4:hover, #opacity5:hover{
+  filter: grayscale(0%);
   box-shadow: 0 0 10px #000 inset;
 }
 
