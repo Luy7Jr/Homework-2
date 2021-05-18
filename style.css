@@ -98,6 +98,7 @@ height: 180px;
 border-radius: 30px;
 box-shadow: 20px 20px 10px #aaaaaa;
 margin: 0 10px 10px 5px;
+filter: grayscale(100%);
 }
 
 .select {
@@ -162,9 +163,6 @@ align-items: center;
     flex-direction: column;
   }
   footer {
-    flex-direction: column;
-  }
-  footer li {
     flex-direction: column;
   }
   main {
