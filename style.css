@@ -89,6 +89,7 @@ border-radius: 30px;
 box-shadow: 20px 20px 10px #aaaaaa;
 margin: 0 10px 10px 5px;
 filter: grayscale(100%);
+margin-bottom: 50px;
 }
 
 .small {
@@ -115,6 +116,7 @@ position: relative;
 
 footer {
   position: relative;
+  display: flex;
   border-radius: 30px;
   height: 100px;
   margin-top: -100px;
@@ -125,18 +127,16 @@ footer {
 
 footer ul {
   display: flex;
-  justify-content: space-between;
   min-width: 300px;
   list-style-type: none;
 }
 
 footer li {
-  padding-top: 40px;
-  padding-right: 50px;
-  color: var(--navlink-color);
-  font-weight: bold;
-  text-decoration: none;
-  margin-left: 25px;
+padding: 30px 85px 20px 85px;
+color: var(--navlink-color);
+font-weight: bold;
+text-decoration: none;
+margin-left: 25px;
 }
 
 .link {
